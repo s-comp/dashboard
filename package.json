@@ -1,0 +1,24 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-comp/dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s-comp/dashboard/issues"
+  },
+  "homepage": "https://github.com/s-comp/dashboard#readme",
+  "description": ""
+}

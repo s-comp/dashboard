@@ -1,0 +1,22 @@
+.my-slider {
+  position: relative;
+  padding-bottom: 45px;
+}
+.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background: #506a85;
+  margin-right: 10px;
+  float: left;
+
+}
+.owl-dot.active {
+  background: #00bc9c;
+}
+.owl-dots {
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
