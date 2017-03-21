@@ -2,7 +2,7 @@
 .toggle {
   position: absolute;
   top: 15px;
-  right: 25px;
+  right: -25px;
   display: inline-block;
   width: 21px;
   height: 16px;
@@ -13,10 +13,10 @@
   content: "";
   position: absolute;
   left: 0;
-  top: -9px;
+  top: -6px;
 }
 .toggle span:after{
-  top: 9px;
+  top: 6px;
 }
 .toggle span {
   position: relative;
