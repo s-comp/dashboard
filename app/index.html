@@ -27,11 +27,11 @@
 </head>
 
 <body>
-		<div class="nav">
-			<div class="nav_top">
-				<div class="logo">Smart</div>
-			</div>
-			<div class="nav_main">
+	<div class="page-wrap active">
+		<div class="nav_main">
+				<div class="nav_top">
+					<div class="logo">Smart</div>
+				</div>
 				<div class="user clearfix">
 					<div class="user_icon left"><img src="../img/icon-profile.png" alt=""></div>
 					<div class="user_name left">
@@ -47,28 +47,51 @@
 					<li class="cal"><a href="#">Calendar</a></li>
 				</div>
         <div class="settings">
-        <ul>
-          <li><a href="#">User</a></li>
-          <li><a href="#">Security</a></li>
-          <li><a href="#">Customers</a></li>
-        </ul>
-      </div>
+	        <ul>
+	          <li><a href="#">User</a></li>
+	          <li><a href="#">Security</a></li>
+	          <li><a href="#">Customers</a></li>
+	        </ul>
+	      </div>
 			</div>
-		</div>
     <div class="wrap">
-      <div class="container">
-      <div class="row">
-        <div class="col-md-1">
-          <div class="header">
-            <div class="menu_tog">
-              <a class="toggle" href="#"><span></span></a>
-            </div>
-            <div class="search"></div>
+      <div class="section_header">
+        <!-- <div class="container"> -->
+          <div class="row">
+            <div class="col-md-12">
+							<div class="head_wrap left">
+	              <div class="menu_tog">
+	                <a class="toggle" href="#"></a>
+	              </div>
+	              <div class="search_box">
+		              <form action='/search' id='search' method='get'>
+		                <input type='text'>
+		              </form>
+	              </div>
+							</div>
+							<div class="head_wrap right">
+	              <a href="#" class="head_settings"></a>
+	              <a href="#" class="log_out"></a>
+	            </div>
+						</div>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
+			<div class="section_info">
+				<!-- <div class="container"> -->
+					<div class="row">
+						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
+						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
+						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
+						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
+					</div>
+					<div class="row">
+						<div class="col-md-9"><img src="../img/Product-Visitors.jpg" alt=""></div>
+					</div>
+				<!-- </div> -->
+			</div>
     </div>
-    </div>
+  </div>
 		<link rel="stylesheet" href="css/main.min.css">
 		<script src="js/scripts.min.js"></script>
 </body>
