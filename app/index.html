@@ -56,42 +56,89 @@
 			</div>
     <div class="wrap">
       <div class="section_header">
-        <!-- <div class="container"> -->
-          <div class="row">
-            <div class="col-md-12">
-							<div class="head_wrap left">
-	              <div class="menu_tog">
-	                <a class="toggle" href="#"></a>
-	              </div>
-	              <div class="search_box">
-		              <form action='/search' id='search' method='get'>
-		                <input type='text'>
-		              </form>
-	              </div>
-							</div>
-							<div class="head_wrap right">
-	              <a href="#" class="head_settings"></a>
-	              <a href="#" class="log_out"></a>
-	            </div>
-						</div>
+				<div class="head_wrap left">
+          <div class="menu_tog">
+            <a class="toggle" href="#"></a>
           </div>
-        <!-- </div> -->
+          <div class="search_box">
+            <form action='/search' id='search' method='get'>
+              <input type='text'>
+            </form>
+          </div>
+				</div>
+				<div class="head_wrap right">
+          <a href="#" class="head_settings"></a>
+          <a href="#" class="log_out"></a>
+        </div>
       </div>
 			<div class="section_info">
-				<!-- <div class="container"> -->
 					<div class="row">
-						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
-						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
-						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
-						<div class="col-md-3"><img src="../img/Total-Sales.jpg" alt=""></div>
+
+						<div class="col-md-3">
+							<div class="total_sales">
+								<div class="total_icon"><img src="../img/icon_total_sales.png" alt=""></div>
+								<div class="title_sales">Total Sales<span><sup>$</sup>215,645</span></div>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="quote">
+								<div class="quote_icon"><img src="../img/icon_quote.png" alt=""></div>
+								<div class="quote_descr">
+									<div class="title_quote"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="orders">
+								<div class="orders_icon"><img src="../img/icon_orders.png" alt=""></div>
+								<div class="title_orders"></div>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="products">
+								<div class="products_icon"><img src="../img/icon_products.png" alt=""></div>
+								<div class="products_descr">
+									<div class="title_products"></div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 					<div class="row">
-						<div class="col-md-9"><img src="../img/Product-Visitors.jpg" alt=""></div>
+						<div class="col-md-9">
+							<div class="visitors">
+								<canvas id="visitors" width="700" height="415"></canvas>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="sales">
+								<canvas id="sales" width="217" height="203"></canvas>
+							</div>
+							<div class="profit">
+								<canvas id="profit" width="217" height="203"></canvas>
+							</div>
+						</div>
 					</div>
-				<!-- </div> -->
-			</div>
-    </div>
-  </div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="traffic">
+								<canvas id="traffic" width="455" height="400"></canvas>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="profile">
+		            <p>Ononto Jolil</p>
+		            <p class="profile_loc">Joker in Dhallywood</p>
+								<img src="../img/icon-profile.png" alt="">
+							</div>
+						</div>
+					</div>
+	    </div>
+	  </div>
+	</div>
 		<link rel="stylesheet" href="css/main.min.css">
 		<script src="js/scripts.min.js"></script>
 </body>
