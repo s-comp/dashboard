@@ -87,6 +87,8 @@ var data = {
 
 var ctx = document.getElementById('traffic').getContext('2d');
 
+// var canvas = document.getElementsById('traffic')[0];
+
 var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
     data: data,

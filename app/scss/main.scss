@@ -492,6 +492,14 @@ a.log_out {
 	background-color: #fff;
 	padding: 10px;
 }
+#traffic {
+  flex: 1;
+	min-width: 420px;
+	max-width: 400px;
+  max-height: 380px;
+	min-height: 380px;
+	justify-content: center;
+}
 //Profile
 .profile {
 	text-align: center;
@@ -538,10 +546,11 @@ a.log_out {
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 19px;
-	padding-bottom: 40px;
+	padding: 0 40px 40px;
 }
 .prof_bot {
 	line-height: 25px;
+	padding-bottom: 30px;
 	.prof_bot_item {
 		display: inline-block;
 		position: relative;
@@ -575,11 +584,40 @@ a.log_out {
 }
 //Profile End
 .section_progressbar {
+	margin: 0 20px 40px;
+	height: 280px;
 	background-color: #fff;
+}
+.progress_top {
+	border-bottom: 1px solid #dae4e8;
+	.title {
+		padding: 20px 0 20px 30px;
+		color: #2f3b4c;
+		font-family: "Museo Sans";
+		font-size: 25px;
+		font-weight: 300;
+	}
+	.vote {
+		padding: 30px 78px 0;
+		color: #90a4ae;
+		font-family: "Museo Sans";
+		font-size: 17px;
+		font-weight: 500;
+		position: relative;
+		&:before {
+			position: absolute;
+			top: 33px;
+			right: 30px;
+			content: '';
+			height: 22px;
+			width: 22px;
+			background: url('../img/icon_sprite.png') no-repeat;
+			background-position: -216px -1px;
+		}
+	}
 }
 .progress {
 	height: 20px;
-	margin-bottom: 20px;
 	overflow: hidden;
 	background-color: #f5f5f5;
 	border-radius: 4px;
@@ -599,7 +637,80 @@ a.log_out {
 	background-color: #ebeef1;
 	background-image: none;
 	box-shadow: none;
+}
+.col_1 {
+	width: 30%;
+	p.reting {
+		position: relative;
+		padding: 10px 57px;
+		border-bottom: 1px solid #dae4e8;
+		border-right: 1px solid #dae4e8;
+		color: #90a4ae;
+		font-family: "Museo Sans";
+		font-size: 17px;
+		font-weight: 500;
+		height: 49px;
+		display: block;
+		&:last-child {
+			border-bottom: none;
+		}
+		&:before {
+			background: url(../img/icon_sprite.png) no-repeat;
+			content: '';
+			position: absolute;
+			top: 14px;
+	    left: 30px;
+			width: 18px;
+			height: 18px;
+		}
+		&.item1:before {
+				background-position: -40px -3px;
+		}
+		&.item2:before {
+				background-position: -66px -3px;
+		}
+		&.item3:before {
+				background-position: -91px -3px;
+		}
+		&.item4:before {
+				background-position: -115px -3px;
+		}
+	}
+}
+.col_2 {
+	width: 63%;
+}
+.progress_wrap {
+	padding: 20px 40px;
 	border-bottom: 1px solid #dae4e8;
+	border-right: 1px solid #dae4e8;
+	&:last-child {
+		border-bottom: none;
+	}
+}
+.col_3 {
+	width: 7%;
+	text-align: center;
+	.percent {
+		position: relative;
+		border-bottom: 1px solid #dae4e8;
+		color: #90a4ae;
+		font-family: "Museo Sans";
+		font-size: 17px;
+		font-weight: 500;
+		height: 49px;
+		display: block;
+		&:before {
+			content: '';
+			display: inline-block;
+			width: 0;
+			height: 100%;
+			vertical-align: middle;
+		}
+		&:last-child {
+			border-bottom: none;
+		}
+	}
 }
 .progress-bar {
 	float: left;
